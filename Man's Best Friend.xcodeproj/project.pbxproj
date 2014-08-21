@@ -21,6 +21,10 @@
 		65F60BD719A3F58900395586 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F60BB919A3F58900395586 /* UIKit.framework */; };
 		65F60BDF19A3F58900395586 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65F60BDD19A3F58900395586 /* InfoPlist.strings */; };
 		65F60BE119A3F58900395586 /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F60BE019A3F58900395586 /* Man_s_Best_FriendTests.m */; };
+		65F60BEC19A3F5A400395586 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F60BEB19A3F5A400395586 /* MBFDog.m */; };
+		65F60BEE19A405B800395586 /* buying-bike_17477_600x450.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65F60BED19A405B800395586 /* buying-bike_17477_600x450.jpg */; };
+		65F60BF019A4091200395586 /* bike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65F60BEF19A4091200395586 /* bike.jpg */; };
+		65F60BF219A4091900395586 /* Marin_bike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65F60BF119A4091900395586 /* Marin_bike.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		65F60BDC19A3F58900395586 /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		65F60BDE19A3F58900395586 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65F60BE019A3F58900395586 /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		65F60BEA19A3F5A400395586 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFDog.h; path = ../MBFDog.h; sourceTree = "<group>"; };
+		65F60BEB19A3F5A400395586 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFDog.m; path = ../MBFDog.m; sourceTree = "<group>"; };
+		65F60BED19A405B800395586 /* buying-bike_17477_600x450.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "buying-bike_17477_600x450.jpg"; sourceTree = "<group>"; };
+		65F60BEF19A4091200395586 /* bike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bike.jpg; sourceTree = "<group>"; };
+		65F60BF119A4091900395586 /* Marin_bike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marin_bike.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +123,8 @@
 			children = (
 				65F60BC419A3F58900395586 /* MBFAppDelegate.h */,
 				65F60BC519A3F58900395586 /* MBFAppDelegate.m */,
+				65F60BEA19A3F5A400395586 /* MBFDog.h */,
+				65F60BEB19A3F5A400395586 /* MBFDog.m */,
 				65F60BC719A3F58900395586 /* Main.storyboard */,
 				65F60BCA19A3F58900395586 /* MBFViewController.h */,
 				65F60BCB19A3F58900395586 /* MBFViewController.m */,
@@ -126,6 +137,9 @@
 		65F60BBC19A3F58900395586 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65F60BF119A4091900395586 /* Marin_bike.jpg */,
+				65F60BEF19A4091200395586 /* bike.jpg */,
+				65F60BED19A405B800395586 /* buying-bike_17477_600x450.jpg */,
 				65F60BBD19A3F58900395586 /* Man's Best Friend-Info.plist */,
 				65F60BBE19A3F58900395586 /* InfoPlist.strings */,
 				65F60BC119A3F58900395586 /* main.m */,
@@ -230,6 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				65F60BCE19A3F58900395586 /* Images.xcassets in Resources */,
+				65F60BF019A4091200395586 /* bike.jpg in Resources */,
+				65F60BF219A4091900395586 /* Marin_bike.jpg in Resources */,
+				65F60BEE19A405B800395586 /* buying-bike_17477_600x450.jpg in Resources */,
 				65F60BC019A3F58900395586 /* InfoPlist.strings in Resources */,
 				65F60BC919A3F58900395586 /* Main.storyboard in Resources */,
 			);
@@ -252,6 +269,7 @@
 			files = (
 				65F60BC619A3F58900395586 /* MBFAppDelegate.m in Sources */,
 				65F60BCC19A3F58900395586 /* MBFViewController.m in Sources */,
+				65F60BEC19A3F5A400395586 /* MBFDog.m in Sources */,
 				65F60BC219A3F58900395586 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
